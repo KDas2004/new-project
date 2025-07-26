@@ -1,0 +1,43 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Hero Section Styling */
+.hero {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('https://www.toptal.com/designers/subtlepatterns/uploads/double-bubble-outline.png');
+    padding: 6rem 0;
+}
+
+.hero h1 {
+    color: #212529; /* Dark text for contrast */
+}
+
+/* Card Styling */
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Section Styling */
+section {
+    padding: 80px 0;
+}
+
+#analyzer {
+    background-color: #ffffff;
+}
+
+/* Results Chart Styling */
+#scoreChart {
+    max-width: 250px;
+    max-height: 250px;
+    margin: auto;
+}
